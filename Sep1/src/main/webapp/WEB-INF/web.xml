@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>addtocart2</display-name>
+    <servlet-name>addtocart2</servlet-name>
+    <servlet-class>p1.addtocart2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addtocart2</servlet-name>
+    <url-pattern>/addtocart2</url-pattern>
+  </servlet-mapping>
+  <display-name>Sep1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ecom_productslist</display-name>
+    <servlet-name>ecom_productslist</servlet-name>
+    <servlet-class>p1.ecom_productslist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ecom_productslist</servlet-name>
+    <url-pattern>/ecom_productslist</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>productList2</display-name>
+    <servlet-name>productList2</servlet-name>
+    <servlet-class>p1.productList2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productList2</servlet-name>
+    <url-pattern>/productList2</url-pattern>
+  </servlet-mapping>
+</web-app>
